@@ -1,6 +1,7 @@
 # OPERATORS OF STRUCTURED PROGRAMMING LANGUAGE
 ___
-		# CONTROL STRUCTURES
+	
+# CONTROL STRUCTURES
 
 ## [WHAT IS A LOOP?](https://www.guru99.com/c-loop-statement.html)
 
