@@ -1,5 +1,5 @@
 # OPERATORS OF STRUCTURED PROGRAMMING LANGUAGE
-**CONTROL STRUCTURES**
+**-CONTROL STRUCTURES-**
 ___
 
 ##### A loop consists of two parts, a body of a loop and a control statement. The control statement is a combination of some conditions that direct the body of the loop to execute until the specified condition becomes false. The purpose of the loop is to repeat the same code a number of times. 
@@ -8,8 +8,8 @@ ___
 * While
 * Do-While
 ##### There are two types of loops:
-1. **Entry Controlled Loops
-2. Exit Controlled Loops
+1. Entry Controlled 
+2. Exit Controlled 
 
 ![LOOPS](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191128194516/Cpp-loops.png)
 
@@ -17,7 +17,8 @@ ___
 
 ##### Is an iterative control structure, which allows us to repeatedly execute a block of instructions, knowing previously a start value, a step size and a final value for the cycle.
 ##### Syntax
-```for (initialization expr; test expr; update expr)
+```
+for (initialization expr; test expr; update expr)
 {    
      // body of the loop
      // statements we want to execute
@@ -31,7 +32,8 @@ ___
 ## [WHILE](https://www.programarya.com/Cursos/C++/Ciclos/Ciclo-while)
 
 ##### The while loop evaluates the test expression inside the parenthesis (). If the test expression is true, statements inside the body of while loop are executed. Then, the test expression is evaluated again. The process goes on until the test expression is evaluated to false. If the test expression is false, the loop terminates (ends).
-```initialization expression;
+```
+initialization expression;
 while (test_expression)
 {
    // statements
