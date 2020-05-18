@@ -186,3 +186,6 @@ class Geeks {
 } 
 
 ```
+___
+
+TEAM: [DIANA RIVERO](https://github.com/20DianaRivero01/Programming_2) Y [DAVID ROMERO](https://github.com/David2903/programming2)
