@@ -1,6 +1,9 @@
 # OPERATORS OF STRUCTURED PROGRAMMING LANGUAGE
-**-CONTROL STRUCTURES-**
 ___
+
+**-CONTROL STRUCTURES-**
+
+## WHAT IS A LOOP?
 
 ##### A loop consists of two parts, a body of a loop and a control statement. The control statement is a combination of some conditions that direct the body of the loop to execute until the specified condition becomes false. The purpose of the loop is to repeat the same code a number of times. 
 ##### The most common Loops are:
