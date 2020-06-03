@@ -20,7 +20,8 @@ A [Subprogram](https://www.geeksforgeeks.org/subprogram-and-its-characteristics/
 ## **[Parameters in Subprograms]( https://www.geeksforgeeks.org/difference-between-call-by-value-and-call-by-reference/)**
 * **Call by value:**  In this parameter passing method, values of actual parameters are copied to function’s formal parameters and the two types of parameters are stored in different memory locations. So any changes made inside functions are not reflected in actual parameters of caller.
 
-``` #include <stdio.h> 
+```
+#include <stdio.h> 
   
 // Function Prototype 
 void swapx(int x, int y); 
@@ -54,7 +55,8 @@ void swapx(int x, int y)
 
 * **By reference:** Both the actual and formal parameters refer to same locations, so any changes made inside the function are actually reflected in actual parameters of caller.
 
-``` #include <stdio.h> 
+```
+#include <stdio.h> 
   
 // Function Prototype 
 void swapx(int*, int*); 
