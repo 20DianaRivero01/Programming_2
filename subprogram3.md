@@ -1,6 +1,8 @@
 # UNIT 3:"SUBPROGRAMS AND RECURSION"
 
 ## SUBPROGRAMS
+___
+
 A [Subprogram](https://www.geeksforgeeks.org/subprogram-and-its-characteristics/ ) is a program inside any larger program that can be reused any number of times.
 **Subprograms** are small programs that are written within a larger, main program. The purpose of a subprogram is to perform a specific task. This task may need to be done more than once at various points in the main program.
 
@@ -89,7 +91,9 @@ void swapx(int* x, int* y)
 } 
 ```
 ## RECURSION 
-[Recursion](https://www.geeksforgeeks.org/recursion/)is the process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function. Using recursive algorithm, certain problems can be solved quite easily. Examples of such problems are Towers of Hanoi (TOH), Inorder/Preorder/Postorder Tree Traversals, DFS of Graph, etc.
+___
+
+[Recursion](https://www.geeksforgeeks.org/recursion/) is the process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function. Using recursive algorithm, certain problems can be solved quite easily. Examples of such problems are Towers of Hanoi (TOH), Inorder/Preorder/Postorder Tree Traversals, DFS of Graph, etc.
 In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems.
 ``` 
 int fact(int n)
@@ -136,5 +140,4 @@ void indirectRecFun2()
 }
 ```
  
-
-
+STUDENTS: [DIANA RIVERO]( https://github.com/20DianaRivero01/Programming_2) Y [DAVID ROMERO](https://github.com/David2903/programming2)
