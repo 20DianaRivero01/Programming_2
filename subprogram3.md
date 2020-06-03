@@ -1,5 +1,6 @@
 # UNIT 3:"SUBPROGRAMS AND RECURSION"
 
+## SUBPROGRAMS
 A [Subprogram](https://www.geeksforgeeks.org/subprogram-and-its-characteristics/ ) is a program inside any larger program that can be reused any number of times.
 **Subprograms** are small programs that are written within a larger, main program. The purpose of a subprogram is to perform a specific task. This task may need to be done more than once at various points in the main program.
 
@@ -7,7 +8,7 @@ A [Subprogram](https://www.geeksforgeeks.org/subprogram-and-its-characteristics/
 * **procedures:** Performs a specific task. When the task is complete, the subprogram ends and the main program continues from where it left off.
 * **function:**  Works in the same way as a procedure, except that it manipulates data and returns a result back to the main program.
 
-## Characteristics of a Subprograms
+### Characteristics of a Subprograms
 * Each subprogram has a single entry point.
 * There is only one subprogram execution at any given time.
 * Control always returns to the caller when the subprogram execution terminates.
@@ -87,6 +88,237 @@ void swapx(int* x, int* y)
     printf("x=%d y=%d\n", *x, *y); 
 } 
 ```
+## RECURSION 
+[Recursion](https://www.geeksforgeeks.org/recursion/)is the process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function. Using recursive algorithm, certain problems can be solved quite easily. Examples of such problems are Towers of Hanoi (TOH), Inorder/Preorder/Postorder Tree Traversals, DFS of Graph, etc.
+In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems.
+``` 
+int fact(int n)
+{
+    if (n < = 1) // base case
+        return 1;
+    else    
+        return n*fact(n-1);    
+}
+// An example of direct recursion
+void directRecFun()
+{
+    // Some code....
 
+    directRecFun();
+
+    // Some code...
+}
+
+// An example of indirect recursion
+void indirectRecFun1()
+{
+    // Some code...
+
+    indirectRecFun2();
+
+    // Some code...
+}
+void indirectRecFun2()
+{
+    // Some code...
+
+    indirectRecFun1();
+
+    // Some code...
+}
+// An example of direct recursion
+void directRecFun()
+{
+    // Some code....
+
+    directRecFun();
+
+    // Some code...
+}
+
+// An example of indirect recursion
+void indirectRecFun1()
+{
+    // Some code...
+
+    indirectRecFun2();
+
+    // Some code...
+}
+void indirectRecFun2()
+{
+    // Some code...
+
+    indirectRecFun1();
+
+    // Some code...
+}
+// An example of direct recursion
+void directRecFun()
+{
+    // Some code....
+
+    directRecFun();
+
+    // Some code...
+}
+
+// An example of indirect recursion
+void indirectRecFun1()
+{
+    // Some code...
+
+    indirectRecFun2();
+
+    // Some code...
+}
+void indirectRecFun2()
+{
+    // Some code...
+
+    indirectRecFun1();
+
+    // Some code...
+}// An example of direct recursion
+void directRecFun()
+{
+    // Some code....
+
+    directRecFun();
+
+    // Some code...
+}
+
+// An example of indirect recursion
+void indirectRecFun1()
+{
+    // Some code...
+
+    indirectRecFun2();
+
+    // Some code...
+}
+void indirectRecFun2()
+{
+    // Some code...
+
+    indirectRecFun1();
+
+    // Some code...
+}// An example of direct recursion
+void directRecFun()
+{
+    // Some code....
+
+    directRecFun();
+
+    // Some code...
+}
+
+// An example of indirect recursion
+void indirectRecFun1()
+{
+    // Some code...
+
+    indirectRecFun2();
+
+    // Some code...
+}
+void indirectRecFun2()
+{
+    // Some code...
+
+    indirectRecFun1();
+
+    // Some code...
+}// An example of direct recursion
+void directRecFun()
+{
+    // Some code....
+
+    directRecFun();
+
+    // Some code...
+}
+
+// An example of indirect recursion
+void indirectRecFun1()
+{
+    // Some code...
+
+    indirectRecFun2();
+
+    // Some code...
+}
+void indirectRecFun2()
+{
+    // Some code...
+
+    indirectRecFun1();
+
+    // Some code...
+}// An example of direct recursion
+void directRecFun()
+{
+    // Some code....
+
+    directRecFun();
+
+    // Some code...
+}
+
+// An example of indirect recursion
+void indirectRecFun1()
+{
+    // Some code...
+
+    indirectRecFun2();
+
+    // Some code...
+}
+void indirectRecFun2()
+{
+    // Some code...
+
+    indirectRecFun1();
+
+    // Some code...
+}
+
+```
+###  There are types of recursive processes
+* **Direct recursive:** If it calls the same function fun. 
+* **Indirect recursive:** If it calls another function say fun_new and fun_new calls fun directly or indirectly.
+The difference between direct and indirect:
+```
+// An example of direct recursion
+void directRecFun()
+{
+    // Some code....
+
+    directRecFun();
+
+    // Some code...
+}
+
+// An example of indirect recursion
+void indirectRecFun1()
+{
+    // Some code...
+
+    indirectRecFun2();
+
+    // Some code...
+}
+void indirectRecFun2()
+{
+    // Some code...
+
+    indirectRecFun1();
+
+    // Some code...
+}
+```
+ 
 
 
