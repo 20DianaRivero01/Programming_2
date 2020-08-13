@@ -24,6 +24,8 @@ In visual code I create a folder where I work my code, i used the lenguage php t
 
 I used XAMP to active and acces to MySQL and with MySQL I created my dataBase called "dianas_web" which is in charge of save the data of all the users registers, there is a table named "ussers" which save the email and the password from the user (I also add another colum named "age" just for practice) and it will work to prove if the user is already registrated and can access or if it is not, and also it will be able to add the data of the new users.
 
+#### OPEN THE WEB PAGE
+
 if you want to open it, you must have installed XAMP because it will act like the server and it contains the data base which the program works with that is MySQL and if you have it you must need to make sure that the button of MySQL and Apache are activate. Also I sent the compressed zip where are folders with the desings, the code I create to the logic of the program, the views,etc. You must save the carpets into the folder XAMP/htdocs, once you have it you can open the search and write localhost/WEBPAGE to see the WebPage and if you want to check the data base, write: http://localhost/phpmyadmin/ and look for the folder called "dianas_web" and then open the file "usuarios" and there is the dataBase with all the information of the user. 
 
 
