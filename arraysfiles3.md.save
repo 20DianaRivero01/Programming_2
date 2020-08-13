@@ -1,0 +1,5 @@
+# ARRAYS
+An array is a data structure that contains a group of elements.Typically these elements are all of the same data type, such as an integer or string.
+Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched.
+An array can be of any type, For example: int, float, char etc. If an array is of type int then it’s elements must be of type int only.
+![arrays_example]
